@@ -74,7 +74,7 @@
 
   /* ---------- typing line ---------- */
   const typed = $('#typed');
-  const roles = ['Process Executive at Cognizant','Customer support specialist','Operations coordinator','Virtual assistant','Front-end developer in training'];
+  const roles = ['Process Executive','Customer support specialist','Operations coordinator','Virtual assistant','Front-end developer in training'];
   if (reduce){
     typed.textContent = roles[0];
   } else {
