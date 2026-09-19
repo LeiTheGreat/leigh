@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#EDF1F0" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#091617" media="(prefers-color-scheme: dark)" />
+<meta name="mobile-web-app-capable" content="yes" />
+<title>Leigh Jannah Ramos — Support &amp; Operations</title>
+<meta name="description" content="Portfolio of Leigh Jannah Ramos: customer support, operations coordination, and front-end development." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+<div class="progress" id="prog"></div>
+
+<!-- icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M3 7l9 6 9-6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3h3l1.5 4-2 1.5a12 12 0 0 0 6.5 6.5L17 13l4 1.5v3a2 2 0 0 1-2.2 2A17 17 0 0 1 3.5 5.2 2 2 0 0 1 5.5 3z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></symbol>
+  <symbol id="i-headset" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13v-1a8 8 0 0 1 16 0v1"/><rect x="2.5" y="13" width="4.5" height="6" rx="1.8"/><rect x="17" y="13" width="4.5" height="6" rx="1.8"/><path d="M19 19v.5a2.5 2.5 0 0 1-2.5 2.5H13"/></symbol>
+  <symbol id="i-flow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="6" height="5" rx="1.5"/><rect x="15" y="3" width="6" height="5" rx="1.5"/><rect x="9" y="16" width="6" height="5" rx="1.5"/><path d="M6 8v3.5h12V8M12 11.5V16"/></symbol>
+  <symbol id="i-desk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-3.2 7-9V5.4l-7-2.6-7 2.6V13c0 5.8 7 9 7 9z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+  <symbol id="i-cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h3l1.5-2.5h9L18 8h3v11H3z"/><circle cx="12" cy="13" r="3.4"/></symbol>
+  <symbol id="i-term" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="16" rx="2.5"/><path d="M7 10l3 2.5-3 2.5M13 15h4"/></symbol>
+  <symbol id="i-tools" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 6.5a4 4 0 0 0 5.2 5.2L21 21l-3 .5-1.5-4-4-1.5.5-3z"/><path d="M9.5 9.5 3 3"/></symbol>
+  <symbol id="i-people" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.4"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 5.2a3.4 3.4 0 0 1 0 5.6M17.5 14.4A6.5 6.5 0 0 1 21.5 20"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-8 8M19 14v5a1.5 1.5 0 0 1-1.5 1.5H5.5A1.5 1.5 0 0 1 4 19V6.5A1.5 1.5 0 0 1 5.5 5H10"/></symbol>
+  <symbol id="i-zoom" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M11 8v6M8 11h6M20 20l-3.5-3.5"/></symbol>
+  <symbol id="i-jump" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
+  <symbol id="i-plane" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 14.5 3 13l1.6-2 6.4 1.2L15.5 6c1-1.6 2.2-2.5 3-2 .8.5.4 2.1-.7 3.8l-4 6.2 1 6.4-2-1-1.5-4.9-3 2.3.2 2.1-1.5-.6-.6-1.6-2-.6.7-1.5 2-.2z"/></symbol>
+  <symbol id="i-gamepad" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="7" width="19" height="11" rx="5.5"/><path d="M7 10.5v4M5 12.5h4"/><circle cx="16" cy="10.7" r="1"/><circle cx="18.3" cy="13" r="1"/></symbol>
+</svg>
+
+<!-- ===================== HEADER ===================== -->
+<header class="bar" id="bar">
+  <div class="wrap bar-inner">
+    <a href="#home" class="mark"><span class="glyph">LR</span><span class="txt">Leigh Ramos</span></a>
+    <nav class="links" id="links" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#work">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <a href="#hobbies">Hobbies</a>
+    </nav>
+    <div class="bar-tools">
+      <button class="kbd-btn" id="openPal" aria-label="Search / jump to a section"><svg width="15" height="15"><use href="#i-search"/></svg><span class="lbl">Jump to…</span> <kbd>⌘K</kbd></button>
+      <button class="icon-btn" id="theme" aria-label="Switch to dark theme"><svg width="18" height="18"><use href="#i-moon" id="themeIcon"/></svg></button>
+      <button class="icon-btn" id="burger" aria-label="Open menu" aria-expanded="false"><svg width="20" height="20"><use href="#i-menu" id="burgerIcon"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow"><span class="pulse"></span> Open to support, operations, and junior front-end roles</p>
+      <h1>Leigh Jannah Ramos</h1>
+      <p class="role-line"><span id="typed"></span><span class="caret">&nbsp;</span></p>
+      <p class="lede">
+        I keep support and operations running — high-volume calls, payment
+        processing, and real-time coordination. On the side, I build for the web.
+      </p>
+      <div class="cta-row">
+        <a href="#contact" class="btn btn-solid">Get in touch <svg width="16" height="16"><use href="#i-jump"/></svg></a>
+        <a href="#projects" class="btn btn-ghost">See what I've built</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="photo-ring">
+        <img src="assets/profile.jpg" alt="Leigh Jannah Ramos" width="240" height="240" />
+      </div>
+      <div class="status-row">
+        <span class="chip-live"><span class="pulse"></span> Open for opportunities</span>
+        <span class="clock mono" id="clock" title="Local time in Manila">--:--</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about" class="band">
+  <div class="wrap">
+    <div class="head reveal">
+      <h2>About me</h2>
+      <p>Where I've worked, how I think, and what I'm learning next.</p>
+    </div>
+    <div class="about">
+      <div class="body reveal">
+        <p>
+          I'm a customer support and operations professional with a few years
+          of experience across telecom, logistics, and insurance. I'm good at
+          solving problems quickly, staying organized under pressure, and
+          keeping communication clear between clients and teams.
+        </p>
+        <p>
+          Outside of work, I'm learning front-end development. I've shipped a
+          data dashboard and a booking site, and I'm working toward roles
+          where support experience and code overlap.
+        </p>
+      </div>
+      <div class="facts reveal">
+        <div class="fact"><svg width="19" height="19"><use href="#i-pin"/></svg><div><b>Taguig City, Philippines</b><span>PHT (UTC+8) · open to remote and night shift</span></div></div>
+        <div class="fact"><svg width="19" height="19"><use href="#i-globe"/></svg><div><b>English &amp; Filipino</b><span>Fluent English, native Filipino</span></div></div>
+        <div class="fact"><svg width="19" height="19"><use href="#i-shield"/></svg><div><b>Insurance &amp; telecom experience</b><span>Commercial lines, postpaid billing, payments</span></div></div>
+        <div class="fact"><svg width="19" height="19"><use href="#i-code"/></svg><div><b>Computer engineering background</b><span>Two years at Mapúa University</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section id="services">
+  <div class="wrap">
+    <div class="head reveal">
+      <h2>What I can take off your plate</h2>
+      <p>The work I've done day in, day out — and can start doing on day one.</p>
+    </div>
+    <div class="cards">
+      <div class="card reveal"><div class="ico"><svg width="20" height="20"><use href="#i-headset"/></svg></div><h3>Customer support</h3><p>Inbound calls, chat, and email. Billing questions, account changes, refunds, and the escalations nobody else wants.</p></div>
+      <div class="card reveal"><div class="ico"><svg width="20" height="20"><use href="#i-flow"/></svg></div><h3>Operations &amp; dispatch</h3><p>Scheduling, live monitoring, reassignment when plans fall apart, and status updates people can actually act on.</p></div>
+      <div class="card reveal"><div class="ico"><svg width="20" height="20"><use href="#i-desk"/></svg></div><h3>Virtual assistance</h3><p>Inbox and calendar management, data entry, reporting, and documenting the process so it survives without me.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXPERIENCE ===================== -->
+<section id="work" class="band">
+  <div class="wrap">
+    <div class="head reveal">
+      <h2>Experience</h2>
+      <p>Three roles, one through-line: keep the queue moving and the customer informed. Tap any role to expand it.</p>
+    </div>
+    <div class="track">
+
+      <article class="job now open reveal">
+        <button class="job-top" aria-expanded="true">
+          <div>
+            <h3>Process Executive</h3>
+            <p class="job-meta">Cognizant · Acrisure, Commercial Lines</p>
+            <p class="job-dates mono">Sep 8, 2026 — Present <span class="tag-now">Current role</span></p>
+          </div>
+          <svg class="chev" width="20" height="20"><use href="#i-chev"/></svg>
+        </button>
+        <div class="job-body"><div><ul>
+          <li>Process commercial lines insurance transactions end to end, working within client systems and documented procedures.</li>
+          <li>Review policy documentation for accuracy and completeness before it moves downstream.</li>
+          <li>Work to defined turnaround times and quality targets on a daily production queue.</li>
+          <li>Flag exceptions and discrepancies to senior staff rather than letting them pass through.</li>
+        </ul></div></div>
+      </article>
+
+      <article class="job reveal">
+        <button class="job-top" aria-expanded="false">
+          <div>
+            <h3>Gig Dispatcher</h3>
+            <p class="job-meta">Community Labor Partnership · Labor services (USA)</p>
+            <p class="job-dates mono">Jul 2024 — Nov 2025</p>
+          </div>
+          <svg class="chev" width="20" height="20"><use href="#i-chev"/></svg>
+        </button>
+        <div class="job-body"><div><ul>
+          <li>Scheduled and assigned daily jobs to field workers, keeping shifts covered and work finished on time.</li>
+          <li>Monitored live gigs and stepped in on delays before they turned into missed jobs.</li>
+          <li>Handled last-minute cancellations and disputes between clients and workers, finding a workable fix for both sides.</li>
+          <li>Kept status records accurate so anyone picking up the board knew exactly where things stood.</li>
+        </ul></div></div>
+      </article>
+
+      <article class="job reveal">
+        <button class="job-top" aria-expanded="false">
+          <div>
+            <h3>Customer Service Representative</h3>
+            <p class="job-meta">Sutherland Global Services · T-Mobile postpaid care</p>
+            <p class="job-dates mono">Jun 2023 — Jan 2024</p>
+          </div>
+          <svg class="chev" width="20" height="20"><use href="#i-chev"/></svg>
+        </button>
+        <div class="job-body"><div><ul>
+          <li>Took high-volume inbound calls for postpaid customers, resolving billing, account, and service problems.</li>
+          <li>Processed payments, refunds, device upgrades, and line changes accurately and within compliance rules.</li>
+          <li>Followed strict system workflows while keeping the conversation human.</li>
+          <li>Consistently met targets for call quality, resolution rate, and customer satisfaction.</li>
+        </ul></div></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SKILLS ===================== -->
+<section id="skills">
+  <div class="wrap">
+    <div class="head reveal">
+      <h2>Skills</h2>
+      <p>Filter by what you're hiring for.</p>
+    </div>
+    <div class="filters reveal" role="group" aria-label="Filter skills">
+      <button data-f="all" aria-pressed="true">Everything</button>
+      <button data-f="support" aria-pressed="false">Support</button>
+      <button data-f="ops" aria-pressed="false">Operations</button>
+      <button data-f="tech" aria-pressed="false">Technical</button>
+    </div>
+    <div class="cards" id="skillGrid">
+      <div class="card reveal" data-c="support"><div class="ico"><svg width="20" height="20"><use href="#i-headset"/></svg></div><h3>Customer support</h3><p>Inbound call handling, issue resolution, payment processing, account management.</p></div>
+      <div class="card reveal" data-c="ops"><div class="ico"><svg width="20" height="20"><use href="#i-flow"/></svg></div><h3>Operations &amp; coordination</h3><p>Task scheduling, real-time monitoring, change management, dispute handling.</p></div>
+      <div class="card reveal" data-c="tech"><div class="ico"><svg width="20" height="20"><use href="#i-code"/></svg></div><h3>Code</h3><p>Front-end fundamentals plus coursework in general-purpose languages.</p><div class="pills"><span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span><span class="pill">Python</span><span class="pill">C++</span><span class="pill">C#</span><span class="pill">WPF</span><span class="pill">SQL</span></div></div>
+      <div class="card reveal" data-c="tech ops support"><div class="ico"><svg width="20" height="20"><use href="#i-tools"/></svg></div><h3>Tools &amp; systems</h3><p>CRM and ticketing platforms, Microsoft Office, Google Workspace.</p><div class="pills"><span class="pill">VS Code</span><span class="pill">PyCharm</span><span class="pill">Spyder</span><span class="pill">Slack</span><span class="pill">Discord</span></div></div>
+      <div class="card reveal" data-c="support ops"><div class="ico"><svg width="20" height="20"><use href="#i-people"/></svg></div><h3>Working with people</h3><p>Clear written and spoken communication, multitasking, attention to detail, staying calm under pressure.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROJECTS ===================== -->
+<section id="projects" class="band">
+  <div class="wrap">
+    <div class="head reveal">
+      <h2>Projects</h2>
+      <p>Things I built to learn — two of them are live and you can click into them.</p>
+    </div>
+    <div class="cards">
+      <div class="card proj reveal">
+        <div class="ico"><svg width="20" height="20"><use href="#i-chart"/></svg></div>
+        <h3>Philippines Crime Analytics</h3>
+        <p>An interactive dashboard over PNP focus-crime data — volume trends, category breakdowns, and regional comparisons.</p>
+        <div class="pills"><span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span><span class="pill">Data viz</span></div>
+        <a class="link" href="https://leithegreat.github.io/Philippines-Crime-Analytics/" target="_blank" rel="noopener">Open the dashboard <svg width="15" height="15"><use href="#i-ext"/></svg></a>
+      </div>
+      <div class="card proj reveal">
+        <div class="ico"><svg width="20" height="20"><use href="#i-cam"/></svg></div>
+        <h3>Photography booking site</h3>
+        <p>A photographer's site for browsing packages and booking a session. Still in progress.</p>
+        <div class="pills"><span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span><span class="pill">In progress</span></div>
+        <a class="link" href="https://leithegreat.github.io/Photography/" target="_blank" rel="noopener">Open the site <svg width="15" height="15"><use href="#i-ext"/></svg></a>
+      </div>
+      <div class="card proj reveal">
+        <div class="ico"><svg width="20" height="20"><use href="#i-term"/></svg></div>
+        <h3>Coursework &amp; fundamentals</h3>
+        <p>Python and C++ problem solving, plus a desktop app built with C#, WPF, and SQL.</p>
+        <div class="pills"><span class="pill">Python</span><span class="pill">C++</span><span class="pill">C#</span><span class="pill">SQL</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EDUCATION ===================== -->
+<section id="education">
+  <div class="wrap">
+    <div class="head reveal">
+      <h2>Education &amp; certifications</h2>
+      <p>Schooling, plus the Coursera courses I finished on my own time.</p>
+    </div>
+    <div class="edu reveal">
+      <div class="edu-row"><div><h3>BS Computer Engineering</h3><p>Mapúa University — coursework completed through second year</p></div><span class="mono" style="color:var(--ink-3)">2021 — 2023</span></div>
+      <div class="edu-row"><div><h3>Senior High School, STEM</h3><p>Pateros Catholic School</p></div><span class="mono" style="color:var(--ink-3)">2019 — 2021</span></div>
+      <div class="edu-row"><div><h3>Junior High School</h3><p>Pateros Catholic School</p></div><span class="mono" style="color:var(--ink-3)">2015 — 2019</span></div>
+    </div>
+
+    <h3 class="sub">Certifications</h3>
+    <div class="certs" id="certs">
+      <button class="cert reveal" data-i="0">
+        <div class="cert-img"><img src="assets/cert-matrix.jpg" alt="Matrix Algebra for Engineers certificate" loading="lazy" /><span class="zoom"><svg width="13" height="13"><use href="#i-zoom"/></svg> View</span></div>
+        <div class="cert-info"><h3>Matrix Algebra for Engineers</h3><p>Hong Kong University of Science and Technology, via Coursera</p><p class="cert-id mono">H26DLH2BBTXY · Dec 2021</p></div>
+      </button>
+      <button class="cert reveal" data-i="1">
+        <div class="cert-img"><img src="assets/cert-mechanics.jpg" alt="Mechanics certificate" loading="lazy" /><span class="zoom"><svg width="13" height="13"><use href="#i-zoom"/></svg> View</span></div>
+        <div class="cert-info"><h3>Mechanics: Motion, Forces, Energy and Gravity</h3><p>UNSW Sydney, via Coursera</p><p class="cert-id mono">5WDY3P5RGYDJ · Nov 2022</p></div>
+      </button>
+      <button class="cert reveal" data-i="2">
+        <div class="cert-img"><img src="assets/cert-differential.jpg" alt="Differential Equations certificate" loading="lazy" /><span class="zoom"><svg width="13" height="13"><use href="#i-zoom"/></svg> View</span></div>
+        <div class="cert-info"><h3>Differential Equations I: Basic Theory</h3><p>KAIST, via Coursera</p><p class="cert-id mono">8AMZGA23QS8U · Jul 2023</p></div>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact" class="band">
+  <div class="wrap">
+    <div class="head reveal">
+      <h2>Get in touch</h2>
+      <p>Open to customer support, operations, virtual assistant, and junior front-end roles.</p>
+    </div>
+    <div class="contact">
+      <div class="copyrow reveal">
+        <div>
+          <svg width="19" height="19"><use href="#i-mail"/></svg>
+          <div><div class="lbl">Email</div><div class="val">leighjannah1041@gmail.com</div></div>
+          <button class="copy-btn" data-copy="leighjannah1041@gmail.com">Copy</button>
+        </div>
+        <div>
+          <svg width="19" height="19"><use href="#i-phone"/></svg>
+          <div><div class="lbl">Phone</div><div class="val">0945 657 3613</div></div>
+          <button class="copy-btn" data-copy="09456573613">Copy</button>
+        </div>
+        <div>
+          <svg width="19" height="19"><use href="#i-pin"/></svg>
+          <div><div class="lbl">Based in</div><div class="val">Pembo, Taguig City</div></div>
+        </div>
+        <div>
+          <svg width="19" height="19"><use href="#i-clock"/></svg>
+          <div><div class="lbl">Local time</div><div class="val mono" id="clock2" style="font-size:15px">--:--</div></div>
+        </div>
+      </div>
+
+      <form id="msg" novalidate>
+        <div class="field">
+          <label for="f-name">Your name</label>
+          <input id="f-name" name="name" autocomplete="name" />
+          <p class="err">Tell me who you are.</p>
+        </div>
+        <div class="field">
+          <label for="f-email">Your email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" />
+          <p class="err">That email address doesn't look right.</p>
+        </div>
+        <div class="field">
+          <label for="f-msg">What's the role or project?</label>
+          <textarea id="f-msg" name="message"></textarea>
+          <p class="err">Add a line or two so I know what it's about.</p>
+        </div>
+        <button type="submit" class="btn btn-solid">Open in my email app <svg width="16" height="16"><use href="#i-mail"/></svg></button>
+        <p class="note">This opens a pre-filled draft in your own email client — nothing is sent from this page.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOBBIES ===================== -->
+<section id="hobbies">
+  <div class="wrap">
+    <div class="head reveal">
+      <h2>Outside of work</h2>
+      <p>What I spend my off-shift hours on.</p>
+    </div>
+    <div class="cards">
+      <div class="card reveal">
+        <div class="ico"><svg width="20" height="20"><use href="#i-plane"/></svg></div>
+        <h3>Traveling</h3>
+        <p>Getting out of the city whenever I can — new places, new food, a break from routine.</p>
+      </div>
+      <div class="card proj reveal">
+        <div class="ico"><svg width="20" height="20"><use href="#i-gamepad"/></svg></div>
+        <h3>Video games</h3>
+        <p>My other reset button — mostly strategy and story-driven games.</p>
+        <a class="link" href="https://steamcommunity.com/id/leithegreat/" target="_blank" rel="noopener">My Steam profile <svg width="15" height="15"><use href="#i-ext"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <p style="margin:0">© <span id="yr">2026</span> Leigh Jannah Ramos</p>
+    <p style="margin:0">Built from scratch with HTML, CSS, and JavaScript</p>
+  </div>
+</footer>
+
+<button id="top" aria-label="Back to top"><svg width="19" height="19"><use href="#i-up"/></svg></button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- ===================== COMMAND PALETTE ===================== -->
+<div class="overlay" id="palette" role="dialog" aria-modal="true" aria-label="Jump to a section">
+  <div class="pal">
+    <input id="palInput" type="text" placeholder="Jump to a section or action…" autocomplete="off" aria-label="Search sections" />
+    <ul id="palList" role="listbox"></ul>
+  </div>
+</div>
+
+<!-- ===================== LIGHTBOX ===================== -->
+<div class="overlay" id="lightbox" role="dialog" aria-modal="true" aria-label="Certificate">
+  <div class="lb">
+    <img id="lbImg" alt="" />
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous certificate"><svg width="20" height="20"><use href="#i-left"/></svg></button>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next certificate"><svg width="20" height="20"><use href="#i-right"/></svg></button>
+    <div class="lb-cap">
+      <span id="lbTitle"></span>
+      <a id="lbVerify" href="#" target="_blank" rel="noopener">Verify on Coursera →</a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
